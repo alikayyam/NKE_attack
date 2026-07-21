@@ -1,0 +1,170 @@
+{
+  "dataset": "cifar10",
+  "arch": "resnet18",
+  "eps_l": 12.0,
+  "detectors": [
+    "tied_penult",
+    "untied_penult",
+    "knn_penult",
+    "tied_layer3"
+  ],
+  "k_knn": 50,
+  "heldout_clean_fpr": {
+    "tied_penult": 0.042,
+    "untied_penult": 0.041,
+    "knn_penult": 0.05,
+    "tied_layer3": 0.047
+  },
+  "single_target": [
+    {
+      "success": 1.0,
+      "tied_penult": 1.0,
+      "untied_penult": 0.955,
+      "knn_penult": 0.0,
+      "tied_layer3": 1.0,
+      "lambda": 0.0
+    },
+    {
+      "success": 1.0,
+      "tied_penult": 0.0,
+      "untied_penult": 0.0,
+      "knn_penult": 0.0,
+      "tied_layer3": 0.22,
+      "lambda": 0.01
+    },
+    {
+      "success": 0.9950000047683716,
+      "tied_penult": 0.0,
+      "untied_penult": 0.0,
+      "knn_penult": 0.025,
+      "tied_layer3": 0.24,
+      "lambda": 0.02
+    }
+  ],
+  "ensemble_target": [
+    {
+      "success": 1.0,
+      "tied_penult": 1.0,
+      "untied_penult": 0.955,
+      "knn_penult": 0.0,
+      "tied_layer3": 1.0,
+      "lambda": 0.0
+    },
+    {
+      "success": 1.0,
+      "tied_penult": 0.0,
+      "untied_penult": 0.0,
+      "knn_penult": 0.0,
+      "tied_layer3": 0.0,
+      "lambda": 0.01
+    },
+    {
+      "success": 0.9900000095367432,
+      "tied_penult": 0.0,
+      "untied_penult": 0.005,
+      "knn_penult": 0.03,
+      "tied_layer3": 0.0,
+      "lambda": 0.02
+    }
+  ],
+  "kitchen_sink": [
+    {
+      "success": 1.0,
+      "tied_penult": 1.0,
+      "untied_penult": 0.955,
+      "knn_penult": 0.0,
+      "tied_layer3": 1.0,
+      "lambda": 0.0
+    },
+    {
+      "success": 0.9049999713897705,
+      "tied_penult": 0.0,
+      "untied_penult": 0.0,
+      "knn_penult": 0.09,
+      "tied_layer3": 0.0,
+      "lambda": 0.01
+    },
+    {
+      "success": 0.3700000047683716,
+      "tied_penult": 0.0,
+      "untied_penult": 0.0,
+      "knn_penult": 0.105,
+      "tied_layer3": 0.0,
+      "lambda": 0.02
+    },
+    {
+      "success": 0.10499999672174454,
+      "tied_penult": 0.0,
+      "untied_penult": 0.0,
+      "knn_penult": 0.005,
+      "tied_layer3": 0.0,
+      "lambda": 0.05
+    },
+    {
+      "success": 0.0949999988079071,
+      "tied_penult": 0.0,
+      "untied_penult": 0.0,
+      "knn_penult": 0.0,
+      "tied_layer3": 0.0,
+      "lambda": 0.1
+    },
+    {
+      "success": 0.0949999988079071,
+      "tied_penult": 0.0,
+      "untied_penult": 0.0,
+      "knn_penult": 0.0,
+      "tied_layer3": 0.0,
+      "lambda": 0.2
+    }
+  ],
+  "untied_target": [
+    {
+      "success": 1.0,
+      "tied_penult": 1.0,
+      "untied_penult": 0.955,
+      "knn_penult": 0.0,
+      "tied_layer3": 1.0,
+      "lambda": 0.0
+    },
+    {
+      "success": 1.0,
+      "tied_penult": 0.0,
+      "untied_penult": 0.005,
+      "knn_penult": 0.02,
+      "tied_layer3": 0.57,
+      "lambda": 0.001
+    },
+    {
+      "success": 0.8199999928474426,
+      "tied_penult": 0.0,
+      "untied_penult": 0.025,
+      "knn_penult": 0.33,
+      "tied_layer3": 0.685,
+      "lambda": 0.01
+    },
+    {
+      "success": 0.4699999988079071,
+      "tied_penult": 0.0,
+      "untied_penult": 0.0,
+      "knn_penult": 0.36,
+      "tied_layer3": 0.84,
+      "lambda": 0.02
+    },
+    {
+      "success": 0.125,
+      "tied_penult": 0.0,
+      "untied_penult": 0.0,
+      "knn_penult": 0.05,
+      "tied_layer3": 0.865,
+      "lambda": 0.05
+    },
+    {
+      "success": 0.10000000149011612,
+      "tied_penult": 0.0,
+      "untied_penult": 0.0,
+      "knn_penult": 0.005,
+      "tied_layer3": 0.745,
+      "lambda": 0.1
+    }
+  ]
+}

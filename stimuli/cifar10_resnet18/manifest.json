@@ -1,0 +1,849 @@
+{
+  "dataset": "cifar10",
+  "classes": [
+    "airplane",
+    "automobile",
+    "bird",
+    "cat",
+    "deer",
+    "dog",
+    "frog",
+    "horse",
+    "ship",
+    "truck"
+  ],
+  "stimuli": [
+    {
+      "file": "images/nke_eps0_197.png",
+      "true_label": "deer",
+      "condition": "clean",
+      "eps_l": 0.0,
+      "model_pred": "deer",
+      "model_conf": 0.9999898672103882
+    },
+    {
+      "file": "images/nke_eps0_157.png",
+      "true_label": "automobile",
+      "condition": "clean",
+      "eps_l": 0.0,
+      "model_pred": "automobile",
+      "model_conf": 0.9999161958694458
+    },
+    {
+      "file": "images/nke_eps0_31.png",
+      "true_label": "frog",
+      "condition": "clean",
+      "eps_l": 0.0,
+      "model_pred": "frog",
+      "model_conf": 0.9999977350234985
+    },
+    {
+      "file": "images/nke_eps0_48.png",
+      "true_label": "airplane",
+      "condition": "clean",
+      "eps_l": 0.0,
+      "model_pred": "airplane",
+      "model_conf": 0.9999291896820068
+    },
+    {
+      "file": "images/nke_eps0_63.png",
+      "true_label": "automobile",
+      "condition": "clean",
+      "eps_l": 0.0,
+      "model_pred": "automobile",
+      "model_conf": 0.9998767375946045
+    },
+    {
+      "file": "images/nke_eps0_59.png",
+      "true_label": "ship",
+      "condition": "clean",
+      "eps_l": 0.0,
+      "model_pred": "ship",
+      "model_conf": 0.9999682903289795
+    },
+    {
+      "file": "images/nke_eps0_5.png",
+      "true_label": "deer",
+      "condition": "clean",
+      "eps_l": 0.0,
+      "model_pred": "deer",
+      "model_conf": 0.9999359846115112
+    },
+    {
+      "file": "images/nke_eps0_7.png",
+      "true_label": "automobile",
+      "condition": "clean",
+      "eps_l": 0.0,
+      "model_pred": "automobile",
+      "model_conf": 0.8745201230049133
+    },
+    {
+      "file": "images/nke_eps1_65.png",
+      "true_label": "ship",
+      "condition": "nke",
+      "eps_l": 1.0,
+      "model_pred": "ship",
+      "model_conf": 1.0
+    },
+    {
+      "file": "images/nke_eps1_62.png",
+      "true_label": "automobile",
+      "condition": "nke",
+      "eps_l": 1.0,
+      "model_pred": "automobile",
+      "model_conf": 1.0
+    },
+    {
+      "file": "images/nke_eps1_56.png",
+      "true_label": "ship",
+      "condition": "nke",
+      "eps_l": 1.0,
+      "model_pred": "ship",
+      "model_conf": 1.0
+    },
+    {
+      "file": "images/nke_eps1_146.png",
+      "true_label": "dog",
+      "condition": "nke",
+      "eps_l": 1.0,
+      "model_pred": "dog",
+      "model_conf": 1.0
+    },
+    {
+      "file": "images/nke_eps1_57.png",
+      "true_label": "truck",
+      "condition": "nke",
+      "eps_l": 1.0,
+      "model_pred": "truck",
+      "model_conf": 1.0
+    },
+    {
+      "file": "images/nke_eps1_187.png",
+      "true_label": "frog",
+      "condition": "nke",
+      "eps_l": 1.0,
+      "model_pred": "frog",
+      "model_conf": 1.0
+    },
+    {
+      "file": "images/nke_eps1_195.png",
+      "true_label": "cat",
+      "condition": "nke",
+      "eps_l": 1.0,
+      "model_pred": "cat",
+      "model_conf": 1.0
+    },
+    {
+      "file": "images/nke_eps1_32.png",
+      "true_label": "bird",
+      "condition": "nke",
+      "eps_l": 1.0,
+      "model_pred": "bird",
+      "model_conf": 1.0
+    },
+    {
+      "file": "images/gauss_eps1_65.png",
+      "true_label": "ship",
+      "condition": "gauss",
+      "eps_l": 1.0,
+      "model_pred": "ship",
+      "model_conf": 1.0
+    },
+    {
+      "file": "images/gauss_eps1_62.png",
+      "true_label": "automobile",
+      "condition": "gauss",
+      "eps_l": 1.0,
+      "model_pred": "automobile",
+      "model_conf": 1.0
+    },
+    {
+      "file": "images/gauss_eps1_56.png",
+      "true_label": "ship",
+      "condition": "gauss",
+      "eps_l": 1.0,
+      "model_pred": "ship",
+      "model_conf": 1.0
+    },
+    {
+      "file": "images/gauss_eps1_146.png",
+      "true_label": "dog",
+      "condition": "gauss",
+      "eps_l": 1.0,
+      "model_pred": "dog",
+      "model_conf": 1.0
+    },
+    {
+      "file": "images/gauss_eps1_57.png",
+      "true_label": "truck",
+      "condition": "gauss",
+      "eps_l": 1.0,
+      "model_pred": "truck",
+      "model_conf": 1.0
+    },
+    {
+      "file": "images/gauss_eps1_187.png",
+      "true_label": "frog",
+      "condition": "gauss",
+      "eps_l": 1.0,
+      "model_pred": "frog",
+      "model_conf": 1.0
+    },
+    {
+      "file": "images/gauss_eps1_195.png",
+      "true_label": "cat",
+      "condition": "gauss",
+      "eps_l": 1.0,
+      "model_pred": "cat",
+      "model_conf": 1.0
+    },
+    {
+      "file": "images/gauss_eps1_32.png",
+      "true_label": "bird",
+      "condition": "gauss",
+      "eps_l": 1.0,
+      "model_pred": "bird",
+      "model_conf": 1.0
+    },
+    {
+      "file": "images/nke_eps2.5_172.png",
+      "true_label": "frog",
+      "condition": "nke",
+      "eps_l": 2.5,
+      "model_pred": "frog",
+      "model_conf": 1.0
+    },
+    {
+      "file": "images/nke_eps2.5_10.png",
+      "true_label": "frog",
+      "condition": "nke",
+      "eps_l": 2.5,
+      "model_pred": "frog",
+      "model_conf": 1.0
+    },
+    {
+      "file": "images/nke_eps2.5_158.png",
+      "true_label": "cat",
+      "condition": "nke",
+      "eps_l": 2.5,
+      "model_pred": "cat",
+      "model_conf": 1.0
+    },
+    {
+      "file": "images/nke_eps2.5_128.png",
+      "true_label": "deer",
+      "condition": "nke",
+      "eps_l": 2.5,
+      "model_pred": "deer",
+      "model_conf": 1.0
+    },
+    {
+      "file": "images/nke_eps2.5_177.png",
+      "true_label": "cat",
+      "condition": "nke",
+      "eps_l": 2.5,
+      "model_pred": "cat",
+      "model_conf": 1.0
+    },
+    {
+      "file": "images/nke_eps2.5_64.png",
+      "true_label": "dog",
+      "condition": "nke",
+      "eps_l": 2.5,
+      "model_pred": "dog",
+      "model_conf": 1.0
+    },
+    {
+      "file": "images/nke_eps2.5_148.png",
+      "true_label": "automobile",
+      "condition": "nke",
+      "eps_l": 2.5,
+      "model_pred": "automobile",
+      "model_conf": 1.0
+    },
+    {
+      "file": "images/nke_eps2.5_42.png",
+      "true_label": "automobile",
+      "condition": "nke",
+      "eps_l": 2.5,
+      "model_pred": "automobile",
+      "model_conf": 1.0
+    },
+    {
+      "file": "images/gauss_eps2.5_172.png",
+      "true_label": "frog",
+      "condition": "gauss",
+      "eps_l": 2.5,
+      "model_pred": "frog",
+      "model_conf": 1.0
+    },
+    {
+      "file": "images/gauss_eps2.5_10.png",
+      "true_label": "frog",
+      "condition": "gauss",
+      "eps_l": 2.5,
+      "model_pred": "frog",
+      "model_conf": 1.0
+    },
+    {
+      "file": "images/gauss_eps2.5_158.png",
+      "true_label": "cat",
+      "condition": "gauss",
+      "eps_l": 2.5,
+      "model_pred": "cat",
+      "model_conf": 1.0
+    },
+    {
+      "file": "images/gauss_eps2.5_128.png",
+      "true_label": "deer",
+      "condition": "gauss",
+      "eps_l": 2.5,
+      "model_pred": "deer",
+      "model_conf": 1.0
+    },
+    {
+      "file": "images/gauss_eps2.5_177.png",
+      "true_label": "cat",
+      "condition": "gauss",
+      "eps_l": 2.5,
+      "model_pred": "cat",
+      "model_conf": 1.0
+    },
+    {
+      "file": "images/gauss_eps2.5_64.png",
+      "true_label": "dog",
+      "condition": "gauss",
+      "eps_l": 2.5,
+      "model_pred": "dog",
+      "model_conf": 1.0
+    },
+    {
+      "file": "images/gauss_eps2.5_148.png",
+      "true_label": "automobile",
+      "condition": "gauss",
+      "eps_l": 2.5,
+      "model_pred": "automobile",
+      "model_conf": 1.0
+    },
+    {
+      "file": "images/gauss_eps2.5_42.png",
+      "true_label": "automobile",
+      "condition": "gauss",
+      "eps_l": 2.5,
+      "model_pred": "automobile",
+      "model_conf": 1.0
+    },
+    {
+      "file": "images/nke_eps5_130.png",
+      "true_label": "airplane",
+      "condition": "nke",
+      "eps_l": 5.0,
+      "model_pred": "airplane",
+      "model_conf": 1.0
+    },
+    {
+      "file": "images/nke_eps5_124.png",
+      "true_label": "horse",
+      "condition": "nke",
+      "eps_l": 5.0,
+      "model_pred": "horse",
+      "model_conf": 1.0
+    },
+    {
+      "file": "images/nke_eps5_155.png",
+      "true_label": "cat",
+      "condition": "nke",
+      "eps_l": 5.0,
+      "model_pred": "cat",
+      "model_conf": 1.0
+    },
+    {
+      "file": "images/nke_eps5_151.png",
+      "true_label": "automobile",
+      "condition": "nke",
+      "eps_l": 5.0,
+      "model_pred": "automobile",
+      "model_conf": 1.0
+    },
+    {
+      "file": "images/nke_eps5_169.png",
+      "true_label": "airplane",
+      "condition": "nke",
+      "eps_l": 5.0,
+      "model_pred": "airplane",
+      "model_conf": 1.0
+    },
+    {
+      "file": "images/nke_eps5_128.png",
+      "true_label": "deer",
+      "condition": "nke",
+      "eps_l": 5.0,
+      "model_pred": "deer",
+      "model_conf": 1.0
+    },
+    {
+      "file": "images/nke_eps5_193.png",
+      "true_label": "truck",
+      "condition": "nke",
+      "eps_l": 5.0,
+      "model_pred": "truck",
+      "model_conf": 1.0
+    },
+    {
+      "file": "images/nke_eps5_92.png",
+      "true_label": "dog",
+      "condition": "nke",
+      "eps_l": 5.0,
+      "model_pred": "dog",
+      "model_conf": 1.0
+    },
+    {
+      "file": "images/gauss_eps5_130.png",
+      "true_label": "airplane",
+      "condition": "gauss",
+      "eps_l": 5.0,
+      "model_pred": "airplane",
+      "model_conf": 1.0
+    },
+    {
+      "file": "images/gauss_eps5_124.png",
+      "true_label": "horse",
+      "condition": "gauss",
+      "eps_l": 5.0,
+      "model_pred": "horse",
+      "model_conf": 1.0
+    },
+    {
+      "file": "images/gauss_eps5_155.png",
+      "true_label": "cat",
+      "condition": "gauss",
+      "eps_l": 5.0,
+      "model_pred": "cat",
+      "model_conf": 1.0
+    },
+    {
+      "file": "images/gauss_eps5_151.png",
+      "true_label": "automobile",
+      "condition": "gauss",
+      "eps_l": 5.0,
+      "model_pred": "automobile",
+      "model_conf": 1.0
+    },
+    {
+      "file": "images/gauss_eps5_169.png",
+      "true_label": "airplane",
+      "condition": "gauss",
+      "eps_l": 5.0,
+      "model_pred": "airplane",
+      "model_conf": 1.0
+    },
+    {
+      "file": "images/gauss_eps5_128.png",
+      "true_label": "deer",
+      "condition": "gauss",
+      "eps_l": 5.0,
+      "model_pred": "deer",
+      "model_conf": 1.0
+    },
+    {
+      "file": "images/gauss_eps5_193.png",
+      "true_label": "truck",
+      "condition": "gauss",
+      "eps_l": 5.0,
+      "model_pred": "truck",
+      "model_conf": 1.0
+    },
+    {
+      "file": "images/gauss_eps5_92.png",
+      "true_label": "dog",
+      "condition": "gauss",
+      "eps_l": 5.0,
+      "model_pred": "dog",
+      "model_conf": 1.0
+    },
+    {
+      "file": "images/nke_eps8_47.png",
+      "true_label": "automobile",
+      "condition": "nke",
+      "eps_l": 8.0,
+      "model_pred": "automobile",
+      "model_conf": 1.0
+    },
+    {
+      "file": "images/nke_eps8_140.png",
+      "true_label": "bird",
+      "condition": "nke",
+      "eps_l": 8.0,
+      "model_pred": "bird",
+      "model_conf": 1.0
+    },
+    {
+      "file": "images/nke_eps8_8.png",
+      "true_label": "automobile",
+      "condition": "nke",
+      "eps_l": 8.0,
+      "model_pred": "automobile",
+      "model_conf": 1.0
+    },
+    {
+      "file": "images/nke_eps8_175.png",
+      "true_label": "automobile",
+      "condition": "nke",
+      "eps_l": 8.0,
+      "model_pred": "automobile",
+      "model_conf": 1.0
+    },
+    {
+      "file": "images/nke_eps8_129.png",
+      "true_label": "automobile",
+      "condition": "nke",
+      "eps_l": 8.0,
+      "model_pred": "automobile",
+      "model_conf": 1.0
+    },
+    {
+      "file": "images/nke_eps8_185.png",
+      "true_label": "truck",
+      "condition": "nke",
+      "eps_l": 8.0,
+      "model_pred": "truck",
+      "model_conf": 1.0
+    },
+    {
+      "file": "images/nke_eps8_103.png",
+      "true_label": "deer",
+      "condition": "nke",
+      "eps_l": 8.0,
+      "model_pred": "deer",
+      "model_conf": 1.0
+    },
+    {
+      "file": "images/nke_eps8_81.png",
+      "true_label": "frog",
+      "condition": "nke",
+      "eps_l": 8.0,
+      "model_pred": "frog",
+      "model_conf": 1.0
+    },
+    {
+      "file": "images/gauss_eps8_47.png",
+      "true_label": "automobile",
+      "condition": "gauss",
+      "eps_l": 8.0,
+      "model_pred": "automobile",
+      "model_conf": 1.0
+    },
+    {
+      "file": "images/gauss_eps8_140.png",
+      "true_label": "bird",
+      "condition": "gauss",
+      "eps_l": 8.0,
+      "model_pred": "bird",
+      "model_conf": 1.0
+    },
+    {
+      "file": "images/gauss_eps8_8.png",
+      "true_label": "automobile",
+      "condition": "gauss",
+      "eps_l": 8.0,
+      "model_pred": "automobile",
+      "model_conf": 1.0
+    },
+    {
+      "file": "images/gauss_eps8_175.png",
+      "true_label": "automobile",
+      "condition": "gauss",
+      "eps_l": 8.0,
+      "model_pred": "automobile",
+      "model_conf": 1.0
+    },
+    {
+      "file": "images/gauss_eps8_129.png",
+      "true_label": "automobile",
+      "condition": "gauss",
+      "eps_l": 8.0,
+      "model_pred": "automobile",
+      "model_conf": 1.0
+    },
+    {
+      "file": "images/gauss_eps8_185.png",
+      "true_label": "truck",
+      "condition": "gauss",
+      "eps_l": 8.0,
+      "model_pred": "truck",
+      "model_conf": 1.0
+    },
+    {
+      "file": "images/gauss_eps8_103.png",
+      "true_label": "deer",
+      "condition": "gauss",
+      "eps_l": 8.0,
+      "model_pred": "deer",
+      "model_conf": 1.0
+    },
+    {
+      "file": "images/gauss_eps8_81.png",
+      "true_label": "frog",
+      "condition": "gauss",
+      "eps_l": 8.0,
+      "model_pred": "frog",
+      "model_conf": 1.0
+    },
+    {
+      "file": "images/nke_eps12_50.png",
+      "true_label": "bird",
+      "condition": "nke",
+      "eps_l": 12.0,
+      "model_pred": "bird",
+      "model_conf": 1.0
+    },
+    {
+      "file": "images/nke_eps12_91.png",
+      "true_label": "frog",
+      "condition": "nke",
+      "eps_l": 12.0,
+      "model_pred": "frog",
+      "model_conf": 1.0
+    },
+    {
+      "file": "images/nke_eps12_109.png",
+      "true_label": "cat",
+      "condition": "nke",
+      "eps_l": 12.0,
+      "model_pred": "cat",
+      "model_conf": 1.0
+    },
+    {
+      "file": "images/nke_eps12_167.png",
+      "true_label": "cat",
+      "condition": "nke",
+      "eps_l": 12.0,
+      "model_pred": "cat",
+      "model_conf": 1.0
+    },
+    {
+      "file": "images/nke_eps12_47.png",
+      "true_label": "automobile",
+      "condition": "nke",
+      "eps_l": 12.0,
+      "model_pred": "automobile",
+      "model_conf": 1.0
+    },
+    {
+      "file": "images/nke_eps12_150.png",
+      "true_label": "dog",
+      "condition": "nke",
+      "eps_l": 12.0,
+      "model_pred": "dog",
+      "model_conf": 1.0
+    },
+    {
+      "file": "images/nke_eps12_165.png",
+      "true_label": "airplane",
+      "condition": "nke",
+      "eps_l": 12.0,
+      "model_pred": "airplane",
+      "model_conf": 1.0
+    },
+    {
+      "file": "images/nke_eps12_44.png",
+      "true_label": "automobile",
+      "condition": "nke",
+      "eps_l": 12.0,
+      "model_pred": "automobile",
+      "model_conf": 1.0
+    },
+    {
+      "file": "images/gauss_eps12_50.png",
+      "true_label": "bird",
+      "condition": "gauss",
+      "eps_l": 12.0,
+      "model_pred": "bird",
+      "model_conf": 1.0
+    },
+    {
+      "file": "images/gauss_eps12_91.png",
+      "true_label": "frog",
+      "condition": "gauss",
+      "eps_l": 12.0,
+      "model_pred": "frog",
+      "model_conf": 1.0
+    },
+    {
+      "file": "images/gauss_eps12_109.png",
+      "true_label": "cat",
+      "condition": "gauss",
+      "eps_l": 12.0,
+      "model_pred": "cat",
+      "model_conf": 1.0
+    },
+    {
+      "file": "images/gauss_eps12_167.png",
+      "true_label": "cat",
+      "condition": "gauss",
+      "eps_l": 12.0,
+      "model_pred": "cat",
+      "model_conf": 1.0
+    },
+    {
+      "file": "images/gauss_eps12_47.png",
+      "true_label": "automobile",
+      "condition": "gauss",
+      "eps_l": 12.0,
+      "model_pred": "automobile",
+      "model_conf": 1.0
+    },
+    {
+      "file": "images/gauss_eps12_150.png",
+      "true_label": "dog",
+      "condition": "gauss",
+      "eps_l": 12.0,
+      "model_pred": "dog",
+      "model_conf": 1.0
+    },
+    {
+      "file": "images/gauss_eps12_165.png",
+      "true_label": "airplane",
+      "condition": "gauss",
+      "eps_l": 12.0,
+      "model_pred": "airplane",
+      "model_conf": 1.0
+    },
+    {
+      "file": "images/gauss_eps12_44.png",
+      "true_label": "automobile",
+      "condition": "gauss",
+      "eps_l": 12.0,
+      "model_pred": "automobile",
+      "model_conf": 1.0
+    },
+    {
+      "file": "images/nke_eps16_111.png",
+      "true_label": "horse",
+      "condition": "nke",
+      "eps_l": 16.0,
+      "model_pred": "horse",
+      "model_conf": 1.0
+    },
+    {
+      "file": "images/nke_eps16_74.png",
+      "true_label": "airplane",
+      "condition": "nke",
+      "eps_l": 16.0,
+      "model_pred": "airplane",
+      "model_conf": 1.0
+    },
+    {
+      "file": "images/nke_eps16_106.png",
+      "true_label": "ship",
+      "condition": "nke",
+      "eps_l": 16.0,
+      "model_pred": "ship",
+      "model_conf": 0.9999998807907104
+    },
+    {
+      "file": "images/nke_eps16_45.png",
+      "true_label": "deer",
+      "condition": "nke",
+      "eps_l": 16.0,
+      "model_pred": "deer",
+      "model_conf": 1.0
+    },
+    {
+      "file": "images/nke_eps16_143.png",
+      "true_label": "horse",
+      "condition": "nke",
+      "eps_l": 16.0,
+      "model_pred": "horse",
+      "model_conf": 1.0
+    },
+    {
+      "file": "images/nke_eps16_147.png",
+      "true_label": "dog",
+      "condition": "nke",
+      "eps_l": 16.0,
+      "model_pred": "dog",
+      "model_conf": 1.0
+    },
+    {
+      "file": "images/nke_eps16_56.png",
+      "true_label": "ship",
+      "condition": "nke",
+      "eps_l": 16.0,
+      "model_pred": "ship",
+      "model_conf": 1.0
+    },
+    {
+      "file": "images/nke_eps16_150.png",
+      "true_label": "dog",
+      "condition": "nke",
+      "eps_l": 16.0,
+      "model_pred": "dog",
+      "model_conf": 1.0
+    },
+    {
+      "file": "images/gauss_eps16_111.png",
+      "true_label": "horse",
+      "condition": "gauss",
+      "eps_l": 16.0,
+      "model_pred": "horse",
+      "model_conf": 1.0
+    },
+    {
+      "file": "images/gauss_eps16_74.png",
+      "true_label": "airplane",
+      "condition": "gauss",
+      "eps_l": 16.0,
+      "model_pred": "airplane",
+      "model_conf": 1.0
+    },
+    {
+      "file": "images/gauss_eps16_106.png",
+      "true_label": "ship",
+      "condition": "gauss",
+      "eps_l": 16.0,
+      "model_pred": "ship",
+      "model_conf": 0.9999998807907104
+    },
+    {
+      "file": "images/gauss_eps16_45.png",
+      "true_label": "deer",
+      "condition": "gauss",
+      "eps_l": 16.0,
+      "model_pred": "deer",
+      "model_conf": 1.0
+    },
+    {
+      "file": "images/gauss_eps16_143.png",
+      "true_label": "horse",
+      "condition": "gauss",
+      "eps_l": 16.0,
+      "model_pred": "horse",
+      "model_conf": 1.0
+    },
+    {
+      "file": "images/gauss_eps16_147.png",
+      "true_label": "dog",
+      "condition": "gauss",
+      "eps_l": 16.0,
+      "model_pred": "dog",
+      "model_conf": 1.0
+    },
+    {
+      "file": "images/gauss_eps16_56.png",
+      "true_label": "ship",
+      "condition": "gauss",
+      "eps_l": 16.0,
+      "model_pred": "ship",
+      "model_conf": 1.0
+    },
+    {
+      "file": "images/gauss_eps16_150.png",
+      "true_label": "dog",
+      "condition": "gauss",
+      "eps_l": 16.0,
+      "model_pred": "dog",
+      "model_conf": 1.0
+    }
+  ]
+}

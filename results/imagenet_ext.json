@@ -1,0 +1,96 @@
+{
+  "src": "resnet152",
+  "tgt": "vgg16",
+  "grid": [
+    0.0,
+    5.0,
+    15.0,
+    30.0,
+    60.0,
+    100.0
+  ],
+  "levels": [
+    {
+      "eps_l": 0.0,
+      "white_box_success": 1.0,
+      "transfer_proxy": 0.7749999761581421,
+      "transfer_proxy_gauss": 0.7749999761581421,
+      "mean_conf": 0.8370558619499207,
+      "achieved_L2": 0.0,
+      "msp_detect": 0.075,
+      "energy_detect": 0.06,
+      "maha_detect": 0.06,
+      "edge_f1": 0.9999999999999162,
+      "texture_glcm": 1.0
+    },
+    {
+      "eps_l": 5.0,
+      "white_box_success": 1.0,
+      "transfer_proxy": 0.8100000023841858,
+      "transfer_proxy_gauss": 0.7250000238418579,
+      "mean_conf": 0.9999998211860657,
+      "achieved_L2": 11.599946022033691,
+      "msp_detect": 0.0,
+      "energy_detect": 0.0,
+      "maha_detect": 1.0,
+      "edge_f1": 0.5900505694961145,
+      "texture_glcm": 0.9009950999503752
+    },
+    {
+      "eps_l": 15.0,
+      "white_box_success": 1.0,
+      "transfer_proxy": 0.46000000834465027,
+      "transfer_proxy_gauss": 0.4950000047683716,
+      "mean_conf": 0.9999997615814209,
+      "achieved_L2": 32.81435775756836,
+      "msp_detect": 0.0,
+      "energy_detect": 0.0,
+      "maha_detect": 1.0,
+      "edge_f1": 0.33984682920687814,
+      "texture_glcm": 0.5084898560378313
+    },
+    {
+      "eps_l": 30.0,
+      "white_box_success": 1.0,
+      "transfer_proxy": 0.125,
+      "transfer_proxy_gauss": 0.1550000011920929,
+      "mean_conf": 0.9999995231628418,
+      "achieved_L2": 60.6161994934082,
+      "msp_detect": 0.0,
+      "energy_detect": 0.0,
+      "maha_detect": 1.0,
+      "edge_f1": 0.2640437948957137,
+      "texture_glcm": 0.005252645316087339
+    },
+    {
+      "eps_l": 60.0,
+      "white_box_success": 1.0,
+      "transfer_proxy": 0.009999999776482582,
+      "transfer_proxy_gauss": 0.029999999329447746,
+      "mean_conf": 0.9999990463256836,
+      "achieved_L2": 102.59668731689453,
+      "msp_detect": 0.0,
+      "energy_detect": 0.0,
+      "maha_detect": 0.99,
+      "edge_f1": 0.22570865680729393,
+      "texture_glcm": 0.0
+    },
+    {
+      "eps_l": 100.0,
+      "white_box_success": 1.0,
+      "transfer_proxy": 0.0,
+      "transfer_proxy_gauss": 0.004999999888241291,
+      "mean_conf": 0.9999923706054688,
+      "achieved_L2": 139.52957153320312,
+      "msp_detect": 0.0,
+      "energy_detect": 0.0,
+      "maha_detect": 0.95,
+      "edge_f1": 0.20937830029270063,
+      "texture_glcm": 0.0
+    }
+  ],
+  "clean_acc": {
+    "resnet152": 0.7774999737739563,
+    "vgg16": 0.6575000286102295
+  }
+}

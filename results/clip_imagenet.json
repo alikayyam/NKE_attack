@@ -1,0 +1,35 @@
+{
+  "dataset": "imagenet",
+  "levels": [
+    {
+      "eps_l": 0.0,
+      "clip_nke": 1.0,
+      "clip_gauss": 1.0
+    },
+    {
+      "eps_l": 5.0,
+      "clip_nke": 0.99,
+      "clip_gauss": 0.99
+    },
+    {
+      "eps_l": 15.0,
+      "clip_nke": 0.935,
+      "clip_gauss": 0.985
+    },
+    {
+      "eps_l": 30.0,
+      "clip_nke": 0.825,
+      "clip_gauss": 0.95
+    },
+    {
+      "eps_l": 60.0,
+      "clip_nke": 0.585,
+      "clip_gauss": 0.78
+    },
+    {
+      "eps_l": 100.0,
+      "clip_nke": 0.325,
+      "clip_gauss": 0.61
+    }
+  ]
+}

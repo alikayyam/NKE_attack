@@ -1,0 +1,80 @@
+{
+  "dataset": "cifar10",
+  "arch": "resnet18",
+  "eps_l": 12.0,
+  "lambdas": [
+    {
+      "lambda": 0.0,
+      "success": 1.0,
+      "achieved_L2": 15.89199447631836,
+      "maha_detect": 1.0,
+      "maha_detect_heldout": 1.0,
+      "msp_detect": 0.0
+    },
+    {
+      "lambda": 0.001,
+      "success": 1.0,
+      "achieved_L2": 12.515799522399902,
+      "maha_detect": 0.0,
+      "maha_detect_heldout": 0.0,
+      "msp_detect": 0.0
+    },
+    {
+      "lambda": 0.01,
+      "success": 0.925000011920929,
+      "achieved_L2": 12.264220237731934,
+      "maha_detect": 0.0,
+      "maha_detect_heldout": 0.0,
+      "msp_detect": 0.0
+    },
+    {
+      "lambda": 0.02,
+      "success": 0.800000011920929,
+      "achieved_L2": 12.237800598144531,
+      "maha_detect": 0.0,
+      "maha_detect_heldout": 0.0,
+      "msp_detect": 0.055
+    },
+    {
+      "lambda": 0.03,
+      "success": 0.6850000023841858,
+      "achieved_L2": 12.230816841125488,
+      "maha_detect": 0.0,
+      "maha_detect_heldout": 0.0,
+      "msp_detect": 0.09
+    },
+    {
+      "lambda": 0.05,
+      "success": 0.6150000095367432,
+      "achieved_L2": 12.241244316101074,
+      "maha_detect": 0.0,
+      "maha_detect_heldout": 0.0,
+      "msp_detect": 0.12
+    },
+    {
+      "lambda": 0.07,
+      "success": 0.6050000190734863,
+      "achieved_L2": 12.238090515136719,
+      "maha_detect": 0.0,
+      "maha_detect_heldout": 0.0,
+      "msp_detect": 0.14
+    },
+    {
+      "lambda": 0.1,
+      "success": 0.5849999785423279,
+      "achieved_L2": 12.24108600616455,
+      "maha_detect": 0.0,
+      "maha_detect_heldout": 0.0,
+      "msp_detect": 0.145
+    },
+    {
+      "lambda": 1.0,
+      "success": 0.5299999713897705,
+      "achieved_L2": 12.256827354431152,
+      "maha_detect": 0.0,
+      "maha_detect_heldout": 0.0,
+      "msp_detect": 0.21
+    }
+  ],
+  "tag": "advtrain"
+}

@@ -1,0 +1,224 @@
+{
+  "mnist": {
+    "matrix": {
+      "dataset": "mnist",
+      "variant": "nmifgm",
+      "eps_l": 7.0,
+      "archs": [
+        "lenet",
+        "mlp"
+      ],
+      "matrix": {
+        "lenet": {
+          "lenet": 1.0,
+          "mlp": 0.9800000190734863
+        },
+        "mlp": {
+          "lenet": 0.95333331823349,
+          "mlp": 1.0
+        }
+      }
+    },
+    "ablation": {
+      "dataset": "mnist",
+      "arch": "lenet",
+      "variant": "nmifgm",
+      "eps_sweep": [
+        {
+          "eps_l": 0.0,
+          "success": 1.0,
+          "achieved_L2": 0.0
+        },
+        {
+          "eps_l": 1.0,
+          "success": 1.0,
+          "achieved_L2": 1.894928216934204
+        },
+        {
+          "eps_l": 2.0,
+          "success": 1.0,
+          "achieved_L2": 3.446246862411499
+        },
+        {
+          "eps_l": 3.5,
+          "success": 1.0,
+          "achieved_L2": 5.480868339538574
+        },
+        {
+          "eps_l": 5.0,
+          "success": 1.0,
+          "achieved_L2": 7.20535945892334
+        },
+        {
+          "eps_l": 7.0,
+          "success": 1.0,
+          "achieved_L2": 9.133252143859863
+        },
+        {
+          "eps_l": 9.0,
+          "success": 1.0,
+          "achieved_L2": 10.792627334594727
+        }
+      ],
+      "iter_sweep": [
+        {
+          "steps": 5,
+          "success": 1.0
+        },
+        {
+          "steps": 10,
+          "success": 1.0
+        },
+        {
+          "steps": 20,
+          "success": 1.0
+        },
+        {
+          "steps": 40,
+          "success": 1.0
+        },
+        {
+          "steps": 80,
+          "success": 1.0
+        }
+      ],
+      "mu_sweep": [
+        {
+          "mu": 0.0,
+          "success": 1.0
+        },
+        {
+          "mu": 0.3,
+          "success": 1.0
+        },
+        {
+          "mu": 0.6,
+          "success": 1.0
+        },
+        {
+          "mu": 0.9,
+          "success": 1.0
+        },
+        {
+          "mu": 1.0,
+          "success": 1.0
+        }
+      ]
+    }
+  },
+  "cifar10": {
+    "matrix": {
+      "dataset": "cifar10",
+      "variant": "nmifgm",
+      "eps_l": 12.0,
+      "archs": [
+        "resnet18",
+        "vgg11",
+        "vit"
+      ],
+      "matrix": {
+        "resnet18": {
+          "resnet18": 1.0,
+          "vgg11": 0.5,
+          "vit": 0.25333333015441895
+        },
+        "vgg11": {
+          "resnet18": 0.2266666740179062,
+          "vgg11": 1.0,
+          "vit": 0.2199999988079071
+        },
+        "vit": {
+          "resnet18": 0.12666666507720947,
+          "vgg11": 0.1599999964237213,
+          "vit": 1.0
+        }
+      }
+    },
+    "ablation": {
+      "dataset": "cifar10",
+      "arch": "resnet18",
+      "variant": "nmifgm",
+      "eps_sweep": [
+        {
+          "eps_l": 0.0,
+          "success": 1.0,
+          "achieved_L2": 0.0
+        },
+        {
+          "eps_l": 1.0,
+          "success": 1.0,
+          "achieved_L2": 2.2658398151397705
+        },
+        {
+          "eps_l": 2.5,
+          "success": 1.0,
+          "achieved_L2": 5.242758750915527
+        },
+        {
+          "eps_l": 5.0,
+          "success": 1.0,
+          "achieved_L2": 9.430583953857422
+        },
+        {
+          "eps_l": 8.0,
+          "success": 1.0,
+          "achieved_L2": 13.440747261047363
+        },
+        {
+          "eps_l": 12.0,
+          "success": 1.0,
+          "achieved_L2": 17.555822372436523
+        },
+        {
+          "eps_l": 16.0,
+          "success": 1.0,
+          "achieved_L2": 20.543184280395508
+        }
+      ],
+      "iter_sweep": [
+        {
+          "steps": 5,
+          "success": 0.875
+        },
+        {
+          "steps": 10,
+          "success": 1.0
+        },
+        {
+          "steps": 20,
+          "success": 1.0
+        },
+        {
+          "steps": 40,
+          "success": 1.0
+        },
+        {
+          "steps": 80,
+          "success": 1.0
+        }
+      ],
+      "mu_sweep": [
+        {
+          "mu": 0.0,
+          "success": 1.0
+        },
+        {
+          "mu": 0.3,
+          "success": 1.0
+        },
+        {
+          "mu": 0.6,
+          "success": 1.0
+        },
+        {
+          "mu": 0.9,
+          "success": 1.0
+        },
+        {
+          "mu": 1.0,
+          "success": 1.0
+        }
+      ]
+    }
+  }
+}

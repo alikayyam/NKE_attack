@@ -1,0 +1,56 @@
+{
+  "dataset": "mnist",
+  "arch": "lenet",
+  "ref_arch": "mlp",
+  "eps_l": 5.0,
+  "variants": [
+    {
+      "variant": "I-FGSM",
+      "sign": true,
+      "momentum": 0.0,
+      "white_box_success": 1.0,
+      "achieved_L2": 4.914859771728516,
+      "maha_detect": 0.115,
+      "msp_detect": 0.0,
+      "generic_proxy": 1.0,
+      "edge_f1": 0.3792879280048899,
+      "texture_glcm": 0.5864726623522531
+    },
+    {
+      "variant": "NI-FGM",
+      "sign": false,
+      "momentum": 0.0,
+      "white_box_success": 1.0,
+      "achieved_L2": 4.9909515380859375,
+      "maha_detect": 0.255,
+      "msp_detect": 0.0,
+      "generic_proxy": 1.0,
+      "edge_f1": 0.3547120746142099,
+      "texture_glcm": 0.5203926127877457
+    },
+    {
+      "variant": "NMI-FGSM",
+      "sign": true,
+      "momentum": 1.0,
+      "white_box_success": 1.0,
+      "achieved_L2": 4.8357133865356445,
+      "maha_detect": 0.145,
+      "msp_detect": 0.0,
+      "generic_proxy": 1.0,
+      "edge_f1": 0.3805338758030015,
+      "texture_glcm": 0.6854932444087345
+    },
+    {
+      "variant": "NMI-FGM",
+      "sign": false,
+      "momentum": 1.0,
+      "white_box_success": 1.0,
+      "achieved_L2": 4.982896327972412,
+      "maha_detect": 0.265,
+      "msp_detect": 0.0,
+      "generic_proxy": 1.0,
+      "edge_f1": 0.3496137761977584,
+      "texture_glcm": 0.5777079701164061
+    }
+  ]
+}

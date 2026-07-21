@@ -1,0 +1,47 @@
+{
+  "dataset": "cifar10",
+  "levels": [
+    {
+      "eps_l": 0.0,
+      "clip_nke": 0.905,
+      "clip_gauss": 0.905,
+      "model_acc": 1.0
+    },
+    {
+      "eps_l": 1.0,
+      "clip_nke": 0.975,
+      "clip_gauss": 0.895,
+      "model_acc": 1.0
+    },
+    {
+      "eps_l": 2.5,
+      "clip_nke": 0.95,
+      "clip_gauss": 0.59,
+      "model_acc": 1.0
+    },
+    {
+      "eps_l": 5.0,
+      "clip_nke": 0.825,
+      "clip_gauss": 0.335,
+      "model_acc": 1.0
+    },
+    {
+      "eps_l": 8.0,
+      "clip_nke": 0.655,
+      "clip_gauss": 0.17,
+      "model_acc": 1.0
+    },
+    {
+      "eps_l": 12.0,
+      "clip_nke": 0.385,
+      "clip_gauss": 0.15,
+      "model_acc": 1.0
+    },
+    {
+      "eps_l": 16.0,
+      "clip_nke": 0.235,
+      "clip_gauss": 0.145,
+      "model_acc": 1.0
+    }
+  ]
+}

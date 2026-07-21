@@ -1,0 +1,267 @@
+{
+  "dataset": "mnist",
+  "base_arch": "lenet",
+  "variant": "nmifgm",
+  "grid": [
+    0.0,
+    1.0,
+    2.0,
+    3.5,
+    5.0,
+    7.0,
+    9.0
+  ],
+  "defenses": {
+    "undefended": {
+      "success_curve": [
+        {
+          "eps_l": 0.0,
+          "success": 1.0
+        },
+        {
+          "eps_l": 1.0,
+          "success": 1.0
+        },
+        {
+          "eps_l": 2.0,
+          "success": 1.0
+        },
+        {
+          "eps_l": 3.5,
+          "success": 1.0
+        },
+        {
+          "eps_l": 5.0,
+          "success": 1.0
+        },
+        {
+          "eps_l": 7.0,
+          "success": 1.0
+        },
+        {
+          "eps_l": 9.0,
+          "success": 1.0
+        }
+      ],
+      "nke_resistance_eps": 9.0,
+      "nke_resistance_cont": 0.0,
+      "classical_robust_acc": 0.0,
+      "clean_acc": 1.0
+    },
+    "jpeg": {
+      "success_curve": [
+        {
+          "eps_l": 0.0,
+          "success": 1.0
+        },
+        {
+          "eps_l": 1.0,
+          "success": 1.0
+        },
+        {
+          "eps_l": 2.0,
+          "success": 1.0
+        },
+        {
+          "eps_l": 3.5,
+          "success": 1.0
+        },
+        {
+          "eps_l": 5.0,
+          "success": 1.0
+        },
+        {
+          "eps_l": 7.0,
+          "success": 1.0
+        },
+        {
+          "eps_l": 9.0,
+          "success": 1.0
+        }
+      ],
+      "nke_resistance_eps": 9.0,
+      "nke_resistance_cont": 0.0,
+      "classical_robust_acc": 0.0,
+      "clean_acc": 0.9933333396911621
+    },
+    "blur": {
+      "success_curve": [
+        {
+          "eps_l": 0.0,
+          "success": 1.0
+        },
+        {
+          "eps_l": 1.0,
+          "success": 1.0
+        },
+        {
+          "eps_l": 2.0,
+          "success": 1.0
+        },
+        {
+          "eps_l": 3.5,
+          "success": 1.0
+        },
+        {
+          "eps_l": 5.0,
+          "success": 1.0
+        },
+        {
+          "eps_l": 7.0,
+          "success": 1.0
+        },
+        {
+          "eps_l": 9.0,
+          "success": 1.0
+        }
+      ],
+      "nke_resistance_eps": 9.0,
+      "nke_resistance_cont": 0.0,
+      "classical_robust_acc": 0.0,
+      "clean_acc": 1.0
+    },
+    "resize_pad": {
+      "success_curve": [
+        {
+          "eps_l": 0.0,
+          "success": 1.0
+        },
+        {
+          "eps_l": 1.0,
+          "success": 1.0
+        },
+        {
+          "eps_l": 2.0,
+          "success": 1.0
+        },
+        {
+          "eps_l": 3.5,
+          "success": 1.0
+        },
+        {
+          "eps_l": 5.0,
+          "success": 1.0
+        },
+        {
+          "eps_l": 7.0,
+          "success": 1.0
+        },
+        {
+          "eps_l": 9.0,
+          "success": 1.0
+        }
+      ],
+      "nke_resistance_eps": 9.0,
+      "nke_resistance_cont": 0.0,
+      "classical_robust_acc": 0.0,
+      "clean_acc": 0.9933333396911621
+    },
+    "smoothing": {
+      "success_curve": [
+        {
+          "eps_l": 0.0,
+          "success": 1.0
+        },
+        {
+          "eps_l": 1.0,
+          "success": 1.0
+        },
+        {
+          "eps_l": 2.0,
+          "success": 1.0
+        },
+        {
+          "eps_l": 3.5,
+          "success": 1.0
+        },
+        {
+          "eps_l": 5.0,
+          "success": 1.0
+        },
+        {
+          "eps_l": 7.0,
+          "success": 1.0
+        },
+        {
+          "eps_l": 9.0,
+          "success": 1.0
+        }
+      ],
+      "nke_resistance_eps": 9.0,
+      "nke_resistance_cont": 0.0,
+      "classical_robust_acc": 0.0,
+      "clean_acc": 0.9866666793823242
+    },
+    "adv_trained": {
+      "success_curve": [
+        {
+          "eps_l": 0.0,
+          "success": 1.0
+        },
+        {
+          "eps_l": 1.0,
+          "success": 1.0
+        },
+        {
+          "eps_l": 2.0,
+          "success": 1.0
+        },
+        {
+          "eps_l": 3.5,
+          "success": 1.0
+        },
+        {
+          "eps_l": 5.0,
+          "success": 1.0
+        },
+        {
+          "eps_l": 7.0,
+          "success": 1.0
+        },
+        {
+          "eps_l": 9.0,
+          "success": 1.0
+        }
+      ],
+      "nke_resistance_eps": 9.0,
+      "nke_resistance_cont": 0.0,
+      "classical_robust_acc": 0.8600000143051147,
+      "clean_acc": 0.9733333587646484
+    }
+  },
+  "correlation": {
+    "pearson_r": NaN,
+    "classical_robust_acc": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.8600000143051147
+    ],
+    "nke_resistance_cont": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "nke_resistance_eps": [
+      9.0,
+      9.0,
+      9.0,
+      9.0,
+      9.0,
+      9.0
+    ],
+    "models": [
+      "undefended",
+      "jpeg",
+      "blur",
+      "resize_pad",
+      "smoothing",
+      "adv_trained"
+    ]
+  }
+}

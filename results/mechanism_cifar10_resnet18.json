@@ -1,0 +1,63 @@
+{
+  "dataset": "cifar10",
+  "arch": "resnet18",
+  "variant": "nmifgm",
+  "levels": [
+    {
+      "eps_l": 0.0,
+      "model_acc": 1.0,
+      "edge_preservation_f1": 0.9999999999978564,
+      "texture_similarity_glcm": 1.0,
+      "texture_similarity_gram": 1.0000000125169755,
+      "achieved_L2": 0.0
+    },
+    {
+      "eps_l": 1.0,
+      "model_acc": 1.0,
+      "edge_preservation_f1": 0.7581978795823496,
+      "texture_similarity_glcm": 0.8301925495551348,
+      "texture_similarity_gram": 0.9999903586506843,
+      "achieved_L2": 2.2625997066497803
+    },
+    {
+      "eps_l": 2.5,
+      "model_acc": 1.0,
+      "edge_preservation_f1": 0.5685592150009197,
+      "texture_similarity_glcm": 0.30139593764389533,
+      "texture_similarity_gram": 0.9998295050859451,
+      "achieved_L2": 5.250856399536133
+    },
+    {
+      "eps_l": 5.0,
+      "model_acc": 1.0,
+      "edge_preservation_f1": 0.44551516522818546,
+      "texture_similarity_glcm": 0.0010282306153603748,
+      "texture_similarity_gram": 0.9987432482838631,
+      "achieved_L2": 9.456212043762207
+    },
+    {
+      "eps_l": 8.0,
+      "model_acc": 1.0,
+      "edge_preservation_f1": 0.3831103069136852,
+      "texture_similarity_glcm": 0.0,
+      "texture_similarity_gram": 0.9962794575095176,
+      "achieved_L2": 13.500205039978027
+    },
+    {
+      "eps_l": 12.0,
+      "model_acc": 1.0,
+      "edge_preservation_f1": 0.3380562794130675,
+      "texture_similarity_glcm": 0.0,
+      "texture_similarity_gram": 0.9925340473651886,
+      "achieved_L2": 17.564777374267578
+    },
+    {
+      "eps_l": 16.0,
+      "model_acc": 1.0,
+      "edge_preservation_f1": 0.31278875577741727,
+      "texture_similarity_glcm": 0.0,
+      "texture_similarity_gram": 0.9884576851129532,
+      "achieved_L2": 20.444934844970703
+    }
+  ]
+}

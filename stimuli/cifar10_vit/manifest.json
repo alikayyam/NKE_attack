@@ -1,0 +1,849 @@
+{
+  "dataset": "cifar10",
+  "classes": [
+    "airplane",
+    "automobile",
+    "bird",
+    "cat",
+    "deer",
+    "dog",
+    "frog",
+    "horse",
+    "ship",
+    "truck"
+  ],
+  "stimuli": [
+    {
+      "file": "images/nke_eps0_197.png",
+      "true_label": "deer",
+      "condition": "clean",
+      "eps_l": 0.0,
+      "model_pred": "deer",
+      "model_conf": 0.9365984797477722
+    },
+    {
+      "file": "images/nke_eps0_157.png",
+      "true_label": "horse",
+      "condition": "clean",
+      "eps_l": 0.0,
+      "model_pred": "horse",
+      "model_conf": 0.905481219291687
+    },
+    {
+      "file": "images/nke_eps0_31.png",
+      "true_label": "frog",
+      "condition": "clean",
+      "eps_l": 0.0,
+      "model_pred": "frog",
+      "model_conf": 0.9253450036048889
+    },
+    {
+      "file": "images/nke_eps0_48.png",
+      "true_label": "bird",
+      "condition": "clean",
+      "eps_l": 0.0,
+      "model_pred": "bird",
+      "model_conf": 0.9427500367164612
+    },
+    {
+      "file": "images/nke_eps0_63.png",
+      "true_label": "frog",
+      "condition": "clean",
+      "eps_l": 0.0,
+      "model_pred": "frog",
+      "model_conf": 0.9291960597038269
+    },
+    {
+      "file": "images/nke_eps0_59.png",
+      "true_label": "deer",
+      "condition": "clean",
+      "eps_l": 0.0,
+      "model_pred": "deer",
+      "model_conf": 0.7229781150817871
+    },
+    {
+      "file": "images/nke_eps0_5.png",
+      "true_label": "frog",
+      "condition": "clean",
+      "eps_l": 0.0,
+      "model_pred": "frog",
+      "model_conf": 0.9173530340194702
+    },
+    {
+      "file": "images/nke_eps0_7.png",
+      "true_label": "horse",
+      "condition": "clean",
+      "eps_l": 0.0,
+      "model_pred": "horse",
+      "model_conf": 0.9012487530708313
+    },
+    {
+      "file": "images/nke_eps1_65.png",
+      "true_label": "automobile",
+      "condition": "nke",
+      "eps_l": 1.0,
+      "model_pred": "automobile",
+      "model_conf": 0.9500513672828674
+    },
+    {
+      "file": "images/nke_eps1_62.png",
+      "true_label": "automobile",
+      "condition": "nke",
+      "eps_l": 1.0,
+      "model_pred": "automobile",
+      "model_conf": 0.9516305327415466
+    },
+    {
+      "file": "images/nke_eps1_56.png",
+      "true_label": "truck",
+      "condition": "nke",
+      "eps_l": 1.0,
+      "model_pred": "truck",
+      "model_conf": 0.9506778120994568
+    },
+    {
+      "file": "images/nke_eps1_146.png",
+      "true_label": "deer",
+      "condition": "nke",
+      "eps_l": 1.0,
+      "model_pred": "deer",
+      "model_conf": 0.9615055322647095
+    },
+    {
+      "file": "images/nke_eps1_57.png",
+      "true_label": "bird",
+      "condition": "nke",
+      "eps_l": 1.0,
+      "model_pred": "bird",
+      "model_conf": 0.9805277585983276
+    },
+    {
+      "file": "images/nke_eps1_187.png",
+      "true_label": "automobile",
+      "condition": "nke",
+      "eps_l": 1.0,
+      "model_pred": "automobile",
+      "model_conf": 0.9486283659934998
+    },
+    {
+      "file": "images/nke_eps1_195.png",
+      "true_label": "dog",
+      "condition": "nke",
+      "eps_l": 1.0,
+      "model_pred": "dog",
+      "model_conf": 0.9797983169555664
+    },
+    {
+      "file": "images/nke_eps1_32.png",
+      "true_label": "horse",
+      "condition": "nke",
+      "eps_l": 1.0,
+      "model_pred": "horse",
+      "model_conf": 0.9751131534576416
+    },
+    {
+      "file": "images/gauss_eps1_65.png",
+      "true_label": "automobile",
+      "condition": "gauss",
+      "eps_l": 1.0,
+      "model_pred": "automobile",
+      "model_conf": 0.9500513672828674
+    },
+    {
+      "file": "images/gauss_eps1_62.png",
+      "true_label": "automobile",
+      "condition": "gauss",
+      "eps_l": 1.0,
+      "model_pred": "automobile",
+      "model_conf": 0.9516305327415466
+    },
+    {
+      "file": "images/gauss_eps1_56.png",
+      "true_label": "truck",
+      "condition": "gauss",
+      "eps_l": 1.0,
+      "model_pred": "truck",
+      "model_conf": 0.9506778120994568
+    },
+    {
+      "file": "images/gauss_eps1_146.png",
+      "true_label": "deer",
+      "condition": "gauss",
+      "eps_l": 1.0,
+      "model_pred": "deer",
+      "model_conf": 0.9615055322647095
+    },
+    {
+      "file": "images/gauss_eps1_57.png",
+      "true_label": "bird",
+      "condition": "gauss",
+      "eps_l": 1.0,
+      "model_pred": "bird",
+      "model_conf": 0.9805277585983276
+    },
+    {
+      "file": "images/gauss_eps1_187.png",
+      "true_label": "automobile",
+      "condition": "gauss",
+      "eps_l": 1.0,
+      "model_pred": "automobile",
+      "model_conf": 0.9486283659934998
+    },
+    {
+      "file": "images/gauss_eps1_195.png",
+      "true_label": "dog",
+      "condition": "gauss",
+      "eps_l": 1.0,
+      "model_pred": "dog",
+      "model_conf": 0.9797983169555664
+    },
+    {
+      "file": "images/gauss_eps1_32.png",
+      "true_label": "horse",
+      "condition": "gauss",
+      "eps_l": 1.0,
+      "model_pred": "horse",
+      "model_conf": 0.9751131534576416
+    },
+    {
+      "file": "images/nke_eps2.5_172.png",
+      "true_label": "cat",
+      "condition": "nke",
+      "eps_l": 2.5,
+      "model_pred": "cat",
+      "model_conf": 0.9818621277809143
+    },
+    {
+      "file": "images/nke_eps2.5_10.png",
+      "true_label": "truck",
+      "condition": "nke",
+      "eps_l": 2.5,
+      "model_pred": "truck",
+      "model_conf": 0.9636036157608032
+    },
+    {
+      "file": "images/nke_eps2.5_158.png",
+      "true_label": "dog",
+      "condition": "nke",
+      "eps_l": 2.5,
+      "model_pred": "dog",
+      "model_conf": 0.9732111096382141
+    },
+    {
+      "file": "images/nke_eps2.5_128.png",
+      "true_label": "airplane",
+      "condition": "nke",
+      "eps_l": 2.5,
+      "model_pred": "airplane",
+      "model_conf": 0.9757930636405945
+    },
+    {
+      "file": "images/nke_eps2.5_177.png",
+      "true_label": "automobile",
+      "condition": "nke",
+      "eps_l": 2.5,
+      "model_pred": "automobile",
+      "model_conf": 0.9640739560127258
+    },
+    {
+      "file": "images/nke_eps2.5_64.png",
+      "true_label": "airplane",
+      "condition": "nke",
+      "eps_l": 2.5,
+      "model_pred": "airplane",
+      "model_conf": 0.9691786170005798
+    },
+    {
+      "file": "images/nke_eps2.5_148.png",
+      "true_label": "horse",
+      "condition": "nke",
+      "eps_l": 2.5,
+      "model_pred": "horse",
+      "model_conf": 0.9845167994499207
+    },
+    {
+      "file": "images/nke_eps2.5_42.png",
+      "true_label": "horse",
+      "condition": "nke",
+      "eps_l": 2.5,
+      "model_pred": "horse",
+      "model_conf": 0.9670796990394592
+    },
+    {
+      "file": "images/gauss_eps2.5_172.png",
+      "true_label": "cat",
+      "condition": "gauss",
+      "eps_l": 2.5,
+      "model_pred": "cat",
+      "model_conf": 0.9818621277809143
+    },
+    {
+      "file": "images/gauss_eps2.5_10.png",
+      "true_label": "truck",
+      "condition": "gauss",
+      "eps_l": 2.5,
+      "model_pred": "truck",
+      "model_conf": 0.9636036157608032
+    },
+    {
+      "file": "images/gauss_eps2.5_158.png",
+      "true_label": "dog",
+      "condition": "gauss",
+      "eps_l": 2.5,
+      "model_pred": "dog",
+      "model_conf": 0.9732111096382141
+    },
+    {
+      "file": "images/gauss_eps2.5_128.png",
+      "true_label": "airplane",
+      "condition": "gauss",
+      "eps_l": 2.5,
+      "model_pred": "airplane",
+      "model_conf": 0.9757930636405945
+    },
+    {
+      "file": "images/gauss_eps2.5_177.png",
+      "true_label": "automobile",
+      "condition": "gauss",
+      "eps_l": 2.5,
+      "model_pred": "automobile",
+      "model_conf": 0.9640739560127258
+    },
+    {
+      "file": "images/gauss_eps2.5_64.png",
+      "true_label": "airplane",
+      "condition": "gauss",
+      "eps_l": 2.5,
+      "model_pred": "airplane",
+      "model_conf": 0.9691786170005798
+    },
+    {
+      "file": "images/gauss_eps2.5_148.png",
+      "true_label": "horse",
+      "condition": "gauss",
+      "eps_l": 2.5,
+      "model_pred": "horse",
+      "model_conf": 0.9845167994499207
+    },
+    {
+      "file": "images/gauss_eps2.5_42.png",
+      "true_label": "horse",
+      "condition": "gauss",
+      "eps_l": 2.5,
+      "model_pred": "horse",
+      "model_conf": 0.9670796990394592
+    },
+    {
+      "file": "images/nke_eps5_130.png",
+      "true_label": "dog",
+      "condition": "nke",
+      "eps_l": 5.0,
+      "model_pred": "dog",
+      "model_conf": 0.9828806519508362
+    },
+    {
+      "file": "images/nke_eps5_124.png",
+      "true_label": "automobile",
+      "condition": "nke",
+      "eps_l": 5.0,
+      "model_pred": "automobile",
+      "model_conf": 0.9711355566978455
+    },
+    {
+      "file": "images/nke_eps5_155.png",
+      "true_label": "cat",
+      "condition": "nke",
+      "eps_l": 5.0,
+      "model_pred": "cat",
+      "model_conf": 0.9890487194061279
+    },
+    {
+      "file": "images/nke_eps5_151.png",
+      "true_label": "deer",
+      "condition": "nke",
+      "eps_l": 5.0,
+      "model_pred": "deer",
+      "model_conf": 0.9805194735527039
+    },
+    {
+      "file": "images/nke_eps5_169.png",
+      "true_label": "dog",
+      "condition": "nke",
+      "eps_l": 5.0,
+      "model_pred": "dog",
+      "model_conf": 0.9816839098930359
+    },
+    {
+      "file": "images/nke_eps5_128.png",
+      "true_label": "airplane",
+      "condition": "nke",
+      "eps_l": 5.0,
+      "model_pred": "airplane",
+      "model_conf": 0.9806570410728455
+    },
+    {
+      "file": "images/nke_eps5_193.png",
+      "true_label": "bird",
+      "condition": "nke",
+      "eps_l": 5.0,
+      "model_pred": "bird",
+      "model_conf": 0.9865598678588867
+    },
+    {
+      "file": "images/nke_eps5_92.png",
+      "true_label": "horse",
+      "condition": "nke",
+      "eps_l": 5.0,
+      "model_pred": "horse",
+      "model_conf": 0.9809153079986572
+    },
+    {
+      "file": "images/gauss_eps5_130.png",
+      "true_label": "dog",
+      "condition": "gauss",
+      "eps_l": 5.0,
+      "model_pred": "dog",
+      "model_conf": 0.9828806519508362
+    },
+    {
+      "file": "images/gauss_eps5_124.png",
+      "true_label": "automobile",
+      "condition": "gauss",
+      "eps_l": 5.0,
+      "model_pred": "automobile",
+      "model_conf": 0.9711355566978455
+    },
+    {
+      "file": "images/gauss_eps5_155.png",
+      "true_label": "cat",
+      "condition": "gauss",
+      "eps_l": 5.0,
+      "model_pred": "cat",
+      "model_conf": 0.9890487194061279
+    },
+    {
+      "file": "images/gauss_eps5_151.png",
+      "true_label": "deer",
+      "condition": "gauss",
+      "eps_l": 5.0,
+      "model_pred": "deer",
+      "model_conf": 0.9805194735527039
+    },
+    {
+      "file": "images/gauss_eps5_169.png",
+      "true_label": "dog",
+      "condition": "gauss",
+      "eps_l": 5.0,
+      "model_pred": "dog",
+      "model_conf": 0.9816839098930359
+    },
+    {
+      "file": "images/gauss_eps5_128.png",
+      "true_label": "airplane",
+      "condition": "gauss",
+      "eps_l": 5.0,
+      "model_pred": "airplane",
+      "model_conf": 0.9806570410728455
+    },
+    {
+      "file": "images/gauss_eps5_193.png",
+      "true_label": "bird",
+      "condition": "gauss",
+      "eps_l": 5.0,
+      "model_pred": "bird",
+      "model_conf": 0.9865598678588867
+    },
+    {
+      "file": "images/gauss_eps5_92.png",
+      "true_label": "horse",
+      "condition": "gauss",
+      "eps_l": 5.0,
+      "model_pred": "horse",
+      "model_conf": 0.9809153079986572
+    },
+    {
+      "file": "images/nke_eps8_47.png",
+      "true_label": "truck",
+      "condition": "nke",
+      "eps_l": 8.0,
+      "model_pred": "truck",
+      "model_conf": 0.9725072383880615
+    },
+    {
+      "file": "images/nke_eps8_140.png",
+      "true_label": "horse",
+      "condition": "nke",
+      "eps_l": 8.0,
+      "model_pred": "horse",
+      "model_conf": 0.9850062727928162
+    },
+    {
+      "file": "images/nke_eps8_8.png",
+      "true_label": "cat",
+      "condition": "nke",
+      "eps_l": 8.0,
+      "model_pred": "cat",
+      "model_conf": 0.9868489503860474
+    },
+    {
+      "file": "images/nke_eps8_175.png",
+      "true_label": "truck",
+      "condition": "nke",
+      "eps_l": 8.0,
+      "model_pred": "truck",
+      "model_conf": 0.9653806090354919
+    },
+    {
+      "file": "images/nke_eps8_129.png",
+      "true_label": "frog",
+      "condition": "nke",
+      "eps_l": 8.0,
+      "model_pred": "frog",
+      "model_conf": 0.9841348528862
+    },
+    {
+      "file": "images/nke_eps8_185.png",
+      "true_label": "horse",
+      "condition": "nke",
+      "eps_l": 8.0,
+      "model_pred": "horse",
+      "model_conf": 0.982214629650116
+    },
+    {
+      "file": "images/nke_eps8_103.png",
+      "true_label": "ship",
+      "condition": "nke",
+      "eps_l": 8.0,
+      "model_pred": "ship",
+      "model_conf": 0.9590156674385071
+    },
+    {
+      "file": "images/nke_eps8_81.png",
+      "true_label": "truck",
+      "condition": "nke",
+      "eps_l": 8.0,
+      "model_pred": "truck",
+      "model_conf": 0.9177035689353943
+    },
+    {
+      "file": "images/gauss_eps8_47.png",
+      "true_label": "truck",
+      "condition": "gauss",
+      "eps_l": 8.0,
+      "model_pred": "truck",
+      "model_conf": 0.9725072383880615
+    },
+    {
+      "file": "images/gauss_eps8_140.png",
+      "true_label": "horse",
+      "condition": "gauss",
+      "eps_l": 8.0,
+      "model_pred": "horse",
+      "model_conf": 0.9850062727928162
+    },
+    {
+      "file": "images/gauss_eps8_8.png",
+      "true_label": "cat",
+      "condition": "gauss",
+      "eps_l": 8.0,
+      "model_pred": "cat",
+      "model_conf": 0.9868489503860474
+    },
+    {
+      "file": "images/gauss_eps8_175.png",
+      "true_label": "truck",
+      "condition": "gauss",
+      "eps_l": 8.0,
+      "model_pred": "truck",
+      "model_conf": 0.9653806090354919
+    },
+    {
+      "file": "images/gauss_eps8_129.png",
+      "true_label": "frog",
+      "condition": "gauss",
+      "eps_l": 8.0,
+      "model_pred": "frog",
+      "model_conf": 0.9841348528862
+    },
+    {
+      "file": "images/gauss_eps8_185.png",
+      "true_label": "horse",
+      "condition": "gauss",
+      "eps_l": 8.0,
+      "model_pred": "horse",
+      "model_conf": 0.982214629650116
+    },
+    {
+      "file": "images/gauss_eps8_103.png",
+      "true_label": "ship",
+      "condition": "gauss",
+      "eps_l": 8.0,
+      "model_pred": "ship",
+      "model_conf": 0.9590156674385071
+    },
+    {
+      "file": "images/gauss_eps8_81.png",
+      "true_label": "truck",
+      "condition": "gauss",
+      "eps_l": 8.0,
+      "model_pred": "truck",
+      "model_conf": 0.9177035689353943
+    },
+    {
+      "file": "images/nke_eps12_50.png",
+      "true_label": "ship",
+      "condition": "nke",
+      "eps_l": 12.0,
+      "model_pred": "ship",
+      "model_conf": 0.9596405625343323
+    },
+    {
+      "file": "images/nke_eps12_91.png",
+      "true_label": "automobile",
+      "condition": "nke",
+      "eps_l": 12.0,
+      "model_pred": "automobile",
+      "model_conf": 0.9694892168045044
+    },
+    {
+      "file": "images/nke_eps12_109.png",
+      "true_label": "bird",
+      "condition": "nke",
+      "eps_l": 12.0,
+      "model_pred": "bird",
+      "model_conf": 0.9874979257583618
+    },
+    {
+      "file": "images/nke_eps12_167.png",
+      "true_label": "dog",
+      "condition": "nke",
+      "eps_l": 12.0,
+      "model_pred": "dog",
+      "model_conf": 0.984592616558075
+    },
+    {
+      "file": "images/nke_eps12_47.png",
+      "true_label": "truck",
+      "condition": "nke",
+      "eps_l": 12.0,
+      "model_pred": "truck",
+      "model_conf": 0.968158483505249
+    },
+    {
+      "file": "images/nke_eps12_150.png",
+      "true_label": "frog",
+      "condition": "nke",
+      "eps_l": 12.0,
+      "model_pred": "frog",
+      "model_conf": 0.9877947568893433
+    },
+    {
+      "file": "images/nke_eps12_165.png",
+      "true_label": "airplane",
+      "condition": "nke",
+      "eps_l": 12.0,
+      "model_pred": "airplane",
+      "model_conf": 0.9775155186653137
+    },
+    {
+      "file": "images/nke_eps12_44.png",
+      "true_label": "ship",
+      "condition": "nke",
+      "eps_l": 12.0,
+      "model_pred": "ship",
+      "model_conf": 0.9615738987922668
+    },
+    {
+      "file": "images/gauss_eps12_50.png",
+      "true_label": "ship",
+      "condition": "gauss",
+      "eps_l": 12.0,
+      "model_pred": "ship",
+      "model_conf": 0.9596405625343323
+    },
+    {
+      "file": "images/gauss_eps12_91.png",
+      "true_label": "automobile",
+      "condition": "gauss",
+      "eps_l": 12.0,
+      "model_pred": "automobile",
+      "model_conf": 0.9694892168045044
+    },
+    {
+      "file": "images/gauss_eps12_109.png",
+      "true_label": "bird",
+      "condition": "gauss",
+      "eps_l": 12.0,
+      "model_pred": "bird",
+      "model_conf": 0.9874979257583618
+    },
+    {
+      "file": "images/gauss_eps12_167.png",
+      "true_label": "dog",
+      "condition": "gauss",
+      "eps_l": 12.0,
+      "model_pred": "dog",
+      "model_conf": 0.984592616558075
+    },
+    {
+      "file": "images/gauss_eps12_47.png",
+      "true_label": "truck",
+      "condition": "gauss",
+      "eps_l": 12.0,
+      "model_pred": "truck",
+      "model_conf": 0.968158483505249
+    },
+    {
+      "file": "images/gauss_eps12_150.png",
+      "true_label": "frog",
+      "condition": "gauss",
+      "eps_l": 12.0,
+      "model_pred": "frog",
+      "model_conf": 0.9877947568893433
+    },
+    {
+      "file": "images/gauss_eps12_165.png",
+      "true_label": "airplane",
+      "condition": "gauss",
+      "eps_l": 12.0,
+      "model_pred": "airplane",
+      "model_conf": 0.9775155186653137
+    },
+    {
+      "file": "images/gauss_eps12_44.png",
+      "true_label": "ship",
+      "condition": "gauss",
+      "eps_l": 12.0,
+      "model_pred": "ship",
+      "model_conf": 0.9615738987922668
+    },
+    {
+      "file": "images/nke_eps16_111.png",
+      "true_label": "deer",
+      "condition": "nke",
+      "eps_l": 16.0,
+      "model_pred": "deer",
+      "model_conf": 0.9801170229911804
+    },
+    {
+      "file": "images/nke_eps16_74.png",
+      "true_label": "bird",
+      "condition": "nke",
+      "eps_l": 16.0,
+      "model_pred": "bird",
+      "model_conf": 0.985968828201294
+    },
+    {
+      "file": "images/nke_eps16_106.png",
+      "true_label": "ship",
+      "condition": "nke",
+      "eps_l": 16.0,
+      "model_pred": "ship",
+      "model_conf": 0.9597296118736267
+    },
+    {
+      "file": "images/nke_eps16_45.png",
+      "true_label": "frog",
+      "condition": "nke",
+      "eps_l": 16.0,
+      "model_pred": "frog",
+      "model_conf": 0.9857375621795654
+    },
+    {
+      "file": "images/nke_eps16_143.png",
+      "true_label": "bird",
+      "condition": "nke",
+      "eps_l": 16.0,
+      "model_pred": "bird",
+      "model_conf": 0.9870598316192627
+    },
+    {
+      "file": "images/nke_eps16_147.png",
+      "true_label": "deer",
+      "condition": "nke",
+      "eps_l": 16.0,
+      "model_pred": "deer",
+      "model_conf": 0.9785028696060181
+    },
+    {
+      "file": "images/nke_eps16_56.png",
+      "true_label": "truck",
+      "condition": "nke",
+      "eps_l": 16.0,
+      "model_pred": "truck",
+      "model_conf": 0.9648650288581848
+    },
+    {
+      "file": "images/nke_eps16_150.png",
+      "true_label": "frog",
+      "condition": "nke",
+      "eps_l": 16.0,
+      "model_pred": "frog",
+      "model_conf": 0.9864711165428162
+    },
+    {
+      "file": "images/gauss_eps16_111.png",
+      "true_label": "deer",
+      "condition": "gauss",
+      "eps_l": 16.0,
+      "model_pred": "deer",
+      "model_conf": 0.9801170229911804
+    },
+    {
+      "file": "images/gauss_eps16_74.png",
+      "true_label": "bird",
+      "condition": "gauss",
+      "eps_l": 16.0,
+      "model_pred": "bird",
+      "model_conf": 0.985968828201294
+    },
+    {
+      "file": "images/gauss_eps16_106.png",
+      "true_label": "ship",
+      "condition": "gauss",
+      "eps_l": 16.0,
+      "model_pred": "ship",
+      "model_conf": 0.9597296118736267
+    },
+    {
+      "file": "images/gauss_eps16_45.png",
+      "true_label": "frog",
+      "condition": "gauss",
+      "eps_l": 16.0,
+      "model_pred": "frog",
+      "model_conf": 0.9857375621795654
+    },
+    {
+      "file": "images/gauss_eps16_143.png",
+      "true_label": "bird",
+      "condition": "gauss",
+      "eps_l": 16.0,
+      "model_pred": "bird",
+      "model_conf": 0.9870598316192627
+    },
+    {
+      "file": "images/gauss_eps16_147.png",
+      "true_label": "deer",
+      "condition": "gauss",
+      "eps_l": 16.0,
+      "model_pred": "deer",
+      "model_conf": 0.9785028696060181
+    },
+    {
+      "file": "images/gauss_eps16_56.png",
+      "true_label": "truck",
+      "condition": "gauss",
+      "eps_l": 16.0,
+      "model_pred": "truck",
+      "model_conf": 0.9648650288581848
+    },
+    {
+      "file": "images/gauss_eps16_150.png",
+      "true_label": "frog",
+      "condition": "gauss",
+      "eps_l": 16.0,
+      "model_pred": "frog",
+      "model_conf": 0.9864711165428162
+    }
+  ]
+}

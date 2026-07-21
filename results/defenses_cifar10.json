@@ -1,0 +1,267 @@
+{
+  "dataset": "cifar10",
+  "base_arch": "resnet18",
+  "variant": "nmifgm",
+  "grid": [
+    0.0,
+    1.0,
+    2.5,
+    5.0,
+    8.0,
+    12.0,
+    16.0
+  ],
+  "defenses": {
+    "undefended": {
+      "success_curve": [
+        {
+          "eps_l": 0.0,
+          "success": 1.0
+        },
+        {
+          "eps_l": 1.0,
+          "success": 1.0
+        },
+        {
+          "eps_l": 2.5,
+          "success": 1.0
+        },
+        {
+          "eps_l": 5.0,
+          "success": 1.0
+        },
+        {
+          "eps_l": 8.0,
+          "success": 1.0
+        },
+        {
+          "eps_l": 12.0,
+          "success": 1.0
+        },
+        {
+          "eps_l": 16.0,
+          "success": 1.0
+        }
+      ],
+      "nke_resistance_eps": 16.0,
+      "nke_resistance_cont": 0.0,
+      "classical_robust_acc": 0.0,
+      "clean_acc": 1.0
+    },
+    "jpeg": {
+      "success_curve": [
+        {
+          "eps_l": 0.0,
+          "success": 1.0
+        },
+        {
+          "eps_l": 1.0,
+          "success": 0.9666666388511658
+        },
+        {
+          "eps_l": 2.5,
+          "success": 0.8333333134651184
+        },
+        {
+          "eps_l": 5.0,
+          "success": 0.800000011920929
+        },
+        {
+          "eps_l": 8.0,
+          "success": 0.9466666579246521
+        },
+        {
+          "eps_l": 12.0,
+          "success": 0.9866666793823242
+        },
+        {
+          "eps_l": 16.0,
+          "success": 0.9866666793823242
+        }
+      ],
+      "nke_resistance_eps": 16.0,
+      "nke_resistance_cont": 0.08000000317891443,
+      "classical_robust_acc": 0.1066666692495346,
+      "clean_acc": 0.7799999713897705
+    },
+    "blur": {
+      "success_curve": [
+        {
+          "eps_l": 0.0,
+          "success": 1.0
+        },
+        {
+          "eps_l": 1.0,
+          "success": 1.0
+        },
+        {
+          "eps_l": 2.5,
+          "success": 1.0
+        },
+        {
+          "eps_l": 5.0,
+          "success": 1.0
+        },
+        {
+          "eps_l": 8.0,
+          "success": 1.0
+        },
+        {
+          "eps_l": 12.0,
+          "success": 1.0
+        },
+        {
+          "eps_l": 16.0,
+          "success": 1.0
+        }
+      ],
+      "nke_resistance_eps": 16.0,
+      "nke_resistance_cont": 0.0,
+      "classical_robust_acc": 0.013333333656191826,
+      "clean_acc": 0.3466666638851166
+    },
+    "resize_pad": {
+      "success_curve": [
+        {
+          "eps_l": 0.0,
+          "success": 1.0
+        },
+        {
+          "eps_l": 1.0,
+          "success": 1.0
+        },
+        {
+          "eps_l": 2.5,
+          "success": 1.0
+        },
+        {
+          "eps_l": 5.0,
+          "success": 1.0
+        },
+        {
+          "eps_l": 8.0,
+          "success": 1.0
+        },
+        {
+          "eps_l": 12.0,
+          "success": 1.0
+        },
+        {
+          "eps_l": 16.0,
+          "success": 1.0
+        }
+      ],
+      "nke_resistance_eps": 16.0,
+      "nke_resistance_cont": 0.0,
+      "classical_robust_acc": 0.0,
+      "clean_acc": 0.846666693687439
+    },
+    "smoothing": {
+      "success_curve": [
+        {
+          "eps_l": 0.0,
+          "success": 1.0
+        },
+        {
+          "eps_l": 1.0,
+          "success": 0.23999999463558197
+        },
+        {
+          "eps_l": 2.5,
+          "success": 0.5933333039283752
+        },
+        {
+          "eps_l": 5.0,
+          "success": 0.8066666722297668
+        },
+        {
+          "eps_l": 8.0,
+          "success": 0.8533333539962769
+        },
+        {
+          "eps_l": 12.0,
+          "success": 0.9933333396911621
+        },
+        {
+          "eps_l": 16.0,
+          "success": 1.0
+        }
+      ],
+      "nke_resistance_eps": 1.0,
+      "nke_resistance_cont": 0.25222222258647287,
+      "classical_robust_acc": 0.10000000149011612,
+      "clean_acc": 0.10000000149011612
+    },
+    "adv_trained": {
+      "success_curve": [
+        {
+          "eps_l": 0.0,
+          "success": 1.0
+        },
+        {
+          "eps_l": 1.0,
+          "success": 0.9666666388511658
+        },
+        {
+          "eps_l": 2.5,
+          "success": 1.0
+        },
+        {
+          "eps_l": 5.0,
+          "success": 1.0
+        },
+        {
+          "eps_l": 8.0,
+          "success": 1.0
+        },
+        {
+          "eps_l": 12.0,
+          "success": 1.0
+        },
+        {
+          "eps_l": 16.0,
+          "success": 1.0
+        }
+      ],
+      "nke_resistance_eps": 16.0,
+      "nke_resistance_cont": 0.005555560191472408,
+      "classical_robust_acc": 0.4533333480358124,
+      "clean_acc": 0.7400000095367432
+    }
+  },
+  "correlation": {
+    "pearson_r": -0.018561637194755138,
+    "classical_robust_acc": [
+      0.0,
+      0.1066666692495346,
+      0.013333333656191826,
+      0.0,
+      0.10000000149011612,
+      0.4533333480358124
+    ],
+    "nke_resistance_cont": [
+      0.0,
+      0.08000000317891443,
+      0.0,
+      0.0,
+      0.25222222258647287,
+      0.005555560191472408
+    ],
+    "nke_resistance_eps": [
+      16.0,
+      16.0,
+      16.0,
+      16.0,
+      1.0,
+      16.0
+    ],
+    "models": [
+      "undefended",
+      "jpeg",
+      "blur",
+      "resize_pad",
+      "smoothing",
+      "adv_trained"
+    ]
+  }
+}

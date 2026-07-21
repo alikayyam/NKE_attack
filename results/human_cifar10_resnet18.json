@@ -1,0 +1,72 @@
+{
+  "dataset": "cifar10",
+  "arch": "resnet18",
+  "ref_arch": "vgg11",
+  "variant": "nmifgm",
+  "levels": [
+    {
+      "eps_l": 0.0,
+      "model_acc": 1.0,
+      "achieved_L2": 0.0,
+      "generic_proxy_nke": 0.93,
+      "generic_proxy_gauss": 0.93,
+      "shape_proxy_nke": 0.6,
+      "shape_proxy_gauss": 0.6
+    },
+    {
+      "eps_l": 1.0,
+      "model_acc": 1.0,
+      "achieved_L2": 2.2625997066497803,
+      "generic_proxy_nke": 0.99,
+      "generic_proxy_gauss": 0.89,
+      "shape_proxy_nke": 0.64,
+      "shape_proxy_gauss": 0.54
+    },
+    {
+      "eps_l": 2.5,
+      "model_acc": 1.0,
+      "achieved_L2": 5.250856399536133,
+      "generic_proxy_nke": 0.965,
+      "generic_proxy_gauss": 0.54,
+      "shape_proxy_nke": 0.395,
+      "shape_proxy_gauss": 0.27
+    },
+    {
+      "eps_l": 5.0,
+      "model_acc": 1.0,
+      "achieved_L2": 9.456212043762207,
+      "generic_proxy_nke": 0.8,
+      "generic_proxy_gauss": 0.2,
+      "shape_proxy_nke": 0.185,
+      "shape_proxy_gauss": 0.135
+    },
+    {
+      "eps_l": 8.0,
+      "model_acc": 1.0,
+      "achieved_L2": 13.500205039978027,
+      "generic_proxy_nke": 0.64,
+      "generic_proxy_gauss": 0.145,
+      "shape_proxy_nke": 0.125,
+      "shape_proxy_gauss": 0.105
+    },
+    {
+      "eps_l": 12.0,
+      "model_acc": 1.0,
+      "achieved_L2": 17.564777374267578,
+      "generic_proxy_nke": 0.55,
+      "generic_proxy_gauss": 0.1,
+      "shape_proxy_nke": 0.105,
+      "shape_proxy_gauss": 0.115
+    },
+    {
+      "eps_l": 16.0,
+      "model_acc": 1.0,
+      "achieved_L2": 20.444934844970703,
+      "generic_proxy_nke": 0.485,
+      "generic_proxy_gauss": 0.145,
+      "shape_proxy_nke": 0.105,
+      "shape_proxy_gauss": 0.11
+    }
+  ],
+  "stimuli_dir": "/home/akayyam/adversarial/stimuli/cifar10_resnet18"
+}

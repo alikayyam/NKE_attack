@@ -1,0 +1,353 @@
+{
+  "dataset": "cifar10",
+  "variant": "nmifgm",
+  "archs": [
+    "resnet18",
+    "vgg11",
+    "vit"
+  ],
+  "grid": [
+    0.0,
+    1.0,
+    2.5,
+    5.0,
+    8.0,
+    12.0,
+    16.0
+  ],
+  "cross_recognizer": [
+    {
+      "eps_l": 0.0,
+      "R": {
+        "resnet18": {
+          "resnet18": 1.0,
+          "vgg11": 0.93,
+          "vit": 0.825
+        },
+        "vgg11": {
+          "resnet18": 0.975,
+          "vgg11": 1.0,
+          "vit": 0.875
+        },
+        "vit": {
+          "resnet18": 0.955,
+          "vgg11": 0.915,
+          "vit": 1.0
+        }
+      },
+      "shape_proxy": {
+        "resnet18": 0.6,
+        "vgg11": 0.605,
+        "vit": 0.695
+      }
+    },
+    {
+      "eps_l": 1.0,
+      "R": {
+        "resnet18": {
+          "resnet18": 1.0,
+          "vgg11": 0.99,
+          "vit": 0.85
+        },
+        "vgg11": {
+          "resnet18": 0.995,
+          "vgg11": 1.0,
+          "vit": 0.92
+        },
+        "vit": {
+          "resnet18": 0.87,
+          "vgg11": 0.88,
+          "vit": 1.0
+        }
+      },
+      "shape_proxy": {
+        "resnet18": 0.64,
+        "vgg11": 0.71,
+        "vit": 0.605
+      }
+    },
+    {
+      "eps_l": 2.5,
+      "R": {
+        "resnet18": {
+          "resnet18": 1.0,
+          "vgg11": 0.965,
+          "vit": 0.75
+        },
+        "vgg11": {
+          "resnet18": 0.95,
+          "vgg11": 1.0,
+          "vit": 0.82
+        },
+        "vit": {
+          "resnet18": 0.41,
+          "vgg11": 0.575,
+          "vit": 1.0
+        }
+      },
+      "shape_proxy": {
+        "resnet18": 0.395,
+        "vgg11": 0.505,
+        "vit": 0.385
+      }
+    },
+    {
+      "eps_l": 5.0,
+      "R": {
+        "resnet18": {
+          "resnet18": 1.0,
+          "vgg11": 0.8,
+          "vit": 0.515
+        },
+        "vgg11": {
+          "resnet18": 0.635,
+          "vgg11": 1.0,
+          "vit": 0.585
+        },
+        "vit": {
+          "resnet18": 0.135,
+          "vgg11": 0.3,
+          "vit": 1.0
+        }
+      },
+      "shape_proxy": {
+        "resnet18": 0.185,
+        "vgg11": 0.215,
+        "vit": 0.18
+      }
+    },
+    {
+      "eps_l": 8.0,
+      "R": {
+        "resnet18": {
+          "resnet18": 1.0,
+          "vgg11": 0.64,
+          "vit": 0.4
+        },
+        "vgg11": {
+          "resnet18": 0.365,
+          "vgg11": 1.0,
+          "vit": 0.345
+        },
+        "vit": {
+          "resnet18": 0.16,
+          "vgg11": 0.165,
+          "vit": 1.0
+        }
+      },
+      "shape_proxy": {
+        "resnet18": 0.125,
+        "vgg11": 0.12,
+        "vit": 0.105
+      }
+    },
+    {
+      "eps_l": 12.0,
+      "R": {
+        "resnet18": {
+          "resnet18": 1.0,
+          "vgg11": 0.55,
+          "vit": 0.3
+        },
+        "vgg11": {
+          "resnet18": 0.25,
+          "vgg11": 1.0,
+          "vit": 0.24
+        },
+        "vit": {
+          "resnet18": 0.135,
+          "vgg11": 0.175,
+          "vit": 1.0
+        }
+      },
+      "shape_proxy": {
+        "resnet18": 0.105,
+        "vgg11": 0.1,
+        "vit": 0.115
+      }
+    },
+    {
+      "eps_l": 16.0,
+      "R": {
+        "resnet18": {
+          "resnet18": 1.0,
+          "vgg11": 0.485,
+          "vit": 0.24
+        },
+        "vgg11": {
+          "resnet18": 0.2,
+          "vgg11": 1.0,
+          "vit": 0.19
+        },
+        "vit": {
+          "resnet18": 0.115,
+          "vgg11": 0.16,
+          "vit": 1.0
+        }
+      },
+      "shape_proxy": {
+        "resnet18": 0.105,
+        "vgg11": 0.105,
+        "vit": 0.12
+      }
+    }
+  ],
+  "shape_bias_contrast": [
+    {
+      "eps_l": 0.0,
+      "per_source": {
+        "resnet18": {
+          "vit_retention": 1.0,
+          "other_cnn_retention": 1.0,
+          "vit_minus_cnn_retention": 0.0
+        },
+        "vgg11": {
+          "vit_retention": 1.0,
+          "other_cnn_retention": 1.0,
+          "vit_minus_cnn_retention": 0.0
+        }
+      },
+      "mean_vit_minus_cnn_retention": 0.0
+    },
+    {
+      "eps_l": 1.0,
+      "per_source": {
+        "resnet18": {
+          "vit_retention": 1.0303030303030303,
+          "other_cnn_retention": 1.064516129032258,
+          "vit_minus_cnn_retention": -0.03421309872922773
+        },
+        "vgg11": {
+          "vit_retention": 1.0514285714285714,
+          "other_cnn_retention": 1.0205128205128204,
+          "vit_minus_cnn_retention": 0.03091575091575094
+        }
+      },
+      "mean_vit_minus_cnn_retention": -0.001648673906738396
+    },
+    {
+      "eps_l": 2.5,
+      "per_source": {
+        "resnet18": {
+          "vit_retention": 0.9090909090909092,
+          "other_cnn_retention": 1.0376344086021505,
+          "vit_minus_cnn_retention": -0.12854349951124133
+        },
+        "vgg11": {
+          "vit_retention": 0.937142857142857,
+          "other_cnn_retention": 0.9743589743589743,
+          "vit_minus_cnn_retention": -0.037216117216117284
+        }
+      },
+      "mean_vit_minus_cnn_retention": -0.08287980836367931
+    },
+    {
+      "eps_l": 5.0,
+      "per_source": {
+        "resnet18": {
+          "vit_retention": 0.6242424242424243,
+          "other_cnn_retention": 0.8602150537634409,
+          "vit_minus_cnn_retention": -0.2359726295210166
+        },
+        "vgg11": {
+          "vit_retention": 0.6685714285714285,
+          "other_cnn_retention": 0.6512820512820513,
+          "vit_minus_cnn_retention": 0.017289377289377184
+        }
+      },
+      "mean_vit_minus_cnn_retention": -0.10934162611581971
+    },
+    {
+      "eps_l": 8.0,
+      "per_source": {
+        "resnet18": {
+          "vit_retention": 0.4848484848484849,
+          "other_cnn_retention": 0.6881720430107526,
+          "vit_minus_cnn_retention": -0.20332355816226771
+        },
+        "vgg11": {
+          "vit_retention": 0.39428571428571424,
+          "other_cnn_retention": 0.37435897435897436,
+          "vit_minus_cnn_retention": 0.019926739926739878
+        }
+      },
+      "mean_vit_minus_cnn_retention": -0.09169840911776392
+    },
+    {
+      "eps_l": 12.0,
+      "per_source": {
+        "resnet18": {
+          "vit_retention": 0.36363636363636365,
+          "other_cnn_retention": 0.5913978494623656,
+          "vit_minus_cnn_retention": -0.22776148582600197
+        },
+        "vgg11": {
+          "vit_retention": 0.2742857142857143,
+          "other_cnn_retention": 0.25641025641025644,
+          "vit_minus_cnn_retention": 0.017875457875457856
+        }
+      },
+      "mean_vit_minus_cnn_retention": -0.10494301397527206
+    },
+    {
+      "eps_l": 16.0,
+      "per_source": {
+        "resnet18": {
+          "vit_retention": 0.2909090909090909,
+          "other_cnn_retention": 0.521505376344086,
+          "vit_minus_cnn_retention": -0.2305962854349951
+        },
+        "vgg11": {
+          "vit_retention": 0.21714285714285714,
+          "other_cnn_retention": 0.20512820512820515,
+          "vit_minus_cnn_retention": 0.012014652014651989
+        }
+      },
+      "mean_vit_minus_cnn_retention": -0.10929081671017156
+    }
+  ],
+  "source_specificity": [
+    {
+      "eps_l": 0.0,
+      "resnet18": 1.0,
+      "vgg11": 1.0,
+      "vit": 1.0
+    },
+    {
+      "eps_l": 1.0,
+      "resnet18": 1.0474095796676441,
+      "vgg11": 1.035970695970696,
+      "vit": 0.9363716991388435
+    },
+    {
+      "eps_l": 2.5,
+      "resnet18": 0.9733626588465298,
+      "vgg11": 0.9557509157509156,
+      "vit": 0.5288673361370984
+    },
+    {
+      "eps_l": 5.0,
+      "resnet18": 0.7422287390029325,
+      "vgg11": 0.6599267399267399,
+      "vit": 0.2346150545017595
+    },
+    {
+      "eps_l": 8.0,
+      "resnet18": 0.5865102639296188,
+      "vgg11": 0.3843223443223443,
+      "vit": 0.17393356793408293
+    },
+    {
+      "eps_l": 12.0,
+      "resnet18": 0.47751710654936463,
+      "vgg11": 0.26534798534798537,
+      "vit": 0.16630904357279774
+    },
+    {
+      "eps_l": 16.0,
+      "resnet18": 0.40620723362658845,
+      "vgg11": 0.21113553113553113,
+      "vit": 0.1476411180728407
+    }
+  ]
+}
