@@ -90,3 +90,14 @@ cd stimuli/cifar10_resnet18 && python -m http.server 8000   # open http://localh
 ```
 Participants failing the attention check (clean-trial accuracy `< --attn`, default
 0.8) are excluded automatically.
+
+## Citation
+```bibtex
+@misc{borji2026correct,
+  title        = {Correct but Unrecognizable: Measuring the Human--Model Gap, and Its Relationship to OOD Detection},
+  author       = {Borji, Ali},
+  year         = {2026},
+  howpublished = {\url{https://github.com/alikayyam/NKE_attack}},
+  note         = {Code and human-study harness}
+}
+```
