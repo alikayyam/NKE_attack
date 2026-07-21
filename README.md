@@ -100,4 +100,11 @@ Participants failing the attention check (clean-trial accuracy `< --attn`, defau
   howpublished = {\url{https://github.com/alikayyam/NKE_attack}},
   note         = {Code and human-study harness}
 }
+
+@article{borji2022new,
+  title   = {A new kind of adversarial example},
+  author  = {Borji, Ali},
+  journal = {arXiv preprint arXiv:2208.02430},
+  year    = {2022}
+}
 ```
