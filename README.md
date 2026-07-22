@@ -1,6 +1,7 @@
 # NKE — "A New Kind of Adversarial Example": experiment suite
 
 ![NKE examples: clean images dissolve into colour noise as the perturbation grows, yet the model keeps its original label and confidence throughout](figures/qualitative_cifar10_teaser.png)
+*NKE examples (CIFAR-10, ResNet-18): clean (ε_l=0) → NKE across increasing ε_l. The model keeps the original label at ~1.0 confidence across each entire row, even where the image has dissolved into colour noise no human could label.*
 
 Implementation of the three evaluation tracks proposed in the paper (human
 psychometric study, OOD/calibration analysis, robustness-intervention
