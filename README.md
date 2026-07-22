@@ -1,5 +1,7 @@
 # NKE — "A New Kind of Adversarial Example": experiment suite
 
+![NKE examples: clean images dissolve into colour noise as the perturbation grows, yet the model keeps its original label and confidence throughout](figures/qualitative_cifar10_teaser.png)
+
 Implementation of the three evaluation tracks proposed in the paper (human
 psychometric study, OOD/calibration analysis, robustness-intervention
 evaluation) plus the mechanistic shape-vs-texture analysis and the reduced
@@ -94,7 +96,7 @@ Participants failing the attention check (clean-trial accuracy `< --attn`, defau
 ## Citation
 ```bibtex
 @misc{borji2026correct,
-  title        = {Correct but Unrecognizable: Measuring the Human--Model Gap, and Its Relationship to OOD Detection},
+  title        = {A New Kind of Adversarial Example: Measuring the Human--Model Gap, and Its Relationship to OOD Detection},
   author       = {Borji, Ali},
   year         = {2026},
   howpublished = {\url{https://github.com/alikayyam/NKE_attack}},
